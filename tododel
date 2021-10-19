@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Program for a to-do list, 2nd step, this one is for reading file
+
+title="To-Do List"
+tasks="To-Do"
+date="$(date +"%x %r ")"
+file="/home/guillermo/bin/todolist.txt"
+
+echo "                     $title
+                    The  Deleter"
+cat -b $file
+
+echo "                     Delete a task? 
+                      yes or no?"
+
+read insert
+
+if [ "$insert" = "y" ]
+then
+    echo "                       what line?"
+else
+    echo "                        quiter"
+fi
+
+read numberin
+
+sed -i "$numberin"'d' $file
