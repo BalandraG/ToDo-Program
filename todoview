@@ -8,4 +8,7 @@ date="$(date +"%x %r ")"
 file="/home/guillermo/bin/todolist.txt"
 
 echo "                     $title"
+
+echo " --------------------------------------------------------- "
+
 cat -b $file

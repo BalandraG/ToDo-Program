@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Program for a to-do list, 4th step, this one is for striking through completed tasks
+
+title="To-Do List"
+tasks="To-Do"
+date="$(date +"%x %r ")"
+file="/home/guillermo/bin/todolist.txt"
+
+echo "                      $title "
+
+echo "                     Instructions"
+
+echo " ----------------------------------------------------- "
+
+echo "        Add tasks to list ----- todoadd"
+
+echo "          View $title ----- todoview "
+
+echo "   Delete tasks from list ----- tododel"
+
+echo "   Mark task as completed ----- tododone"
