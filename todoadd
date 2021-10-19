@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Program for a to-do list, 1st step, this one is for adding
+
+title="To-Do List"
+tasks="To-Do"
+date="$(date +"%x %r ")"
+file="/home/guillermo/bin/todolist.txt"
+
+echo "$tasks
+     Please input your new task"
+     
+read  newinput 
+
+echo $date $newinput  >> $file

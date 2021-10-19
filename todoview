@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Program for a to-do list, 2nd step, this one is for reading file
+
+title="To-Do List"
+tasks="To-Do"
+date="$(date +"%x %r ")"
+file="/home/guillermo/bin/todolist.txt"
+
+cat -b $file
