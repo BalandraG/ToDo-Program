@@ -1,1 +1,10 @@
 Requirments
+In this project, you will use your Bash scripting skills to create a suite of simple tools to keep track of TODO items. 
+These tools should allow you to add items to a TODO list, view outstanding items and their identifier, and mark items as complete via their item identifier.
+ Any files stored by your program should be stored in the ~/.todo/ directory.
+ DeDescribe your implementation plan in the implementation-plan/ directory of your project. Include how you will format requirements, what design artifacts you will create, who will own the team’s code and how changes will be applied to it, etc.scribe your implementation plan in the implementation-plan/ directory of your project.
+  Include how you will format requirements, what design artifacts you will create, who will own the team’s code and how changes will be applied to it, etc.
+Detail the requirements you elicited from the customer as Markdown files in the requirements/ directory of your project. As you complete your requirements, use strikethrough notation of Markdown to mark them as complete.
+Detail your design in the design/ directory of your project. You may use prose, user stories, use cases, UML diagrams, or any other technique detailed in your implementation plan.
+Ensure you have no unnecessary binary files in your repository. Use the git archive command to create a tar.bz2 archive and upload it here.Implement your design according to your implementation plan, ensuring you synchronize frequently with your team. Be prepared to periodically update your instructor on your progress.
+
