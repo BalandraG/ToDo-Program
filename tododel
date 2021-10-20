@@ -17,7 +17,7 @@ cat -b $file
 echo " -------------------------------------------------------- "
 
 echo "                     Delete a task? 
-                    yes-y- or no-n-?"
+                         y or n"
 
 read insert
 

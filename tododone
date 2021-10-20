@@ -18,5 +18,3 @@ echo " ------------------------------------------------------ "
 echo "       Select line of task you wish to complete"
 
 read input
-
-sed "$input"'d' s/"$input"'d'/echo -e "\e[9m"$input"'d'\e[0m"/ >> $file

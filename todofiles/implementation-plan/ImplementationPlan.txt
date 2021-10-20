@@ -1,0 +1,5 @@
+Implementation Plan
+make a design where i can add delete and list a todo list
+devide it up into section where i can write code that interacts with each other
+make it look nice
+

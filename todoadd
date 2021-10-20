@@ -6,9 +6,17 @@ title="To-Do List"
 tasks="To-Do"
 date="$(date +"%x %r ")"
 file="/home/guillermo/bin/todolist.txt"
+cal="execute cal -3"
 
-echo "                $tasks
-     Please input your new task"
+echo "                            $tasks                                    "
+
+echo " -------------------------------------------------------------------- "
+         
+echo "$(cal -3) "  
+
+echo " -------------------------------------------------------------------- "          
+          
+echo "                  Please input your new task"
      
 read  newinput 
 
